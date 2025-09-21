@@ -32,6 +32,7 @@ return {
     -- and convert back behind the scenes
     'GCBallesteros/jupytext.nvim',
     event = { 'LSPAttach' },
+    lazy = false,
     opts = {
       custom_language_formatting = {
         python = {
